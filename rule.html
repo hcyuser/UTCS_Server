@@ -1,0 +1,127 @@
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../../favicon.ico">
+
+<title>UTCS System Administration Team</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/docs.min.css" rel="stylesheet">
+<link href="css/utcs.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body id="main">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <!--<span class="sr-only">Toggle navigation</span>-->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand" href="index.html">UTCS</a>-->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">帳號 Account</a></li>
+                <li><a href="server.html">伺服器資訊 Information</a></li>
+                <li><a href="rule.html">工作站使用規範 Rule</a></li>
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">服務 Service</a>
+                <ul class="dropdown-menu">
+                    <li><a href="service.html#homepage">個人網頁 Hompage</a></li>
+                    <li><a href="service.html#ssh">SSH</a></li>
+                </ul>
+                </li>
+                <li><a href="faq.html">常見問題 FAQ</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="bs-callout bs-callout-warning">
+                <h4 class="title">工作站使用規範 Computation rule</h4>
+                <ul class="content">
+                    <li class="list">教學與研究使用
+                    <ul class="content">
+                        <li class="list">
+                        用途：主要為支援教學使用，並提供研究上短期需要大量運算者使用。
+                        </li>
+                        <li class="list">
+                        規則 1：請斟酌在機器上所執行的程式，以不會影響其他使用者爲原則。
+                        </li>
+                        <li class="list">
+                        規則 2：執行大 job 時，請隨時注意程式執行的狀態，以避免影響到其他使用者的使用權。
+                        </li>
+                        <li class="list">
+                        規則 3：在工作站執行數小時以上的程式時，請使用有意義的程式名稱，勿使用 <code>a.out</code>，以方便識別該程式的用途。
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+                <ul class="content">
+                    <li class="list">一般使用
+                    <ul class="content">
+                        <li class="list">
+                        用途：<a href=service.html#ssh>遠端連線 SSH</a>、<a href="service.html#homepage">個人網頁 Homepage</a> 等。
+                        </li>
+                        <li class="list">
+                        規則：請勿使用工作站機器進行非法或大量檔案下載上傳。
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <ul class="nav bs-docs-sidenav">
+                <li>
+                <h4><a href="http://cs.utaipei.edu.tw/bin/home.php" target="_blank">臺北市立大學資訊科學系<br>系統管理團隊</a></h4>
+                <h5>Department of Computer Science, University of Taipei</h5>
+                </li>
+            </ul>
+            <span class="content">系統管理員：</span>
+            <ul class="content">
+                <li class="list">林杰毅（資訊科學系四年級）
+                <a href="mailto:disc9562@gmail.com">disc9562@gmail.com</a>
+                </li>
+                <li class="list">林玟宇（資訊科學系三年級）
+                <a href="mailto:U10216018@go.utaipei.edu.tw">U10216018@go.utaipei.edu.tw</a>
+                </li>
+            </ul>
+            <span class="content">參與教授：</span>
+            <ul class="content">
+                <li class="list"><a href="http://teacher.utaipei.edu.tw/~cjwang/index.html">王釧茹</a>（資訊科學系助理教授）
+                <a href="mailto:cjwang@utaipei.edu.tw">cjwang@utaipei.edu.tw</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div> <!-- /container -->
+<div id="footer">
+    <p class="center">© Copyright 2015 UTCS System Administration Team, Department of Computer Science, University of Taipei.</p>
+    <!--<p class="pull-right smoothScroll"><a href="#top" class="smoothScroll"><i class="fa fa-angle-double-up fa-2x"></i></a></p>-->
+</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/docs.min.js"></script>-->
+    <script src="js/smoothscroll.min.js"></script>
+</body></html>

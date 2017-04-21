@@ -1,0 +1,36 @@
+#main {
+	font-family: meiryo;
+    padding-top: 60px;
+}
+.content {
+	font-size: 11pt
+}
+.title {
+	color: #0431B4;
+    padding-bottom: 10px;
+}
+.list{
+    padding: 2px;
+}
+.center{
+    text-align: center;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+     position: fixed;
+     bottom: 0px;
+     width: 100%;
+     overflow: visible;
+     z-index: 99;
+     padding-top: 5px;
+     padding-bottom: 3px;
+     background: white;
+     border-top: solid white 2px;
+     background-color: #E0E0E0;
+     -webkit-box-shadow: 0px -5px 15px 0px #bfbfbf;
+     box-shadow: 0px -5px 15px 0px #bfbfbf;
+     height: 34px;
+}
