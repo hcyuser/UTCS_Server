@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>UTCS System Administration Team</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">UTCS DNS</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">關於</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">裝置設定</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">聯絡我們</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>UTCS DNS 計畫</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">DNS 163.21.235.70 / 10.6.56.151</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">更多</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">UTCS DNS 計畫</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">UTCS DNS 是臺北市立大學資訊科學系推動的 DNS 解析服務實驗計畫，提供系上更快速的 DNS 查詢服務。</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">設定你的裝置</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">裝置設定</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              Windows
+              <li>點選開始列，並選擇進入「設定」項目</li>
+              <li>選擇進入「網路和網際網路」</li>
+              <li>選擇進入「變更介面卡選項」</li>
+              <li>選擇您上網使用的介面設定項目，按右按鍵選擇「內容」項目</li>
+              <li>選擇「網際網路通訊協定第4版(TCP/IPv4)」項目之後選「內容」進入設定，更改下方的「使用下列的DNS伺服器位址」，更改「慣用DNS伺服器」內容為「10.6.56.151」或者「163.21.235.70」，之後按確定鍵完成設定</li>
+              <li>您已完成設定! 享受更快及更安全的DNS服務吧!</li>
+
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              MacOS
+              <li>請先到「系統偏好設定」下的「網路」設定</li>
+              <li>選擇您正在連線的連線項目並按下「進階」選項</li>
+              <li>此時會進入DNS設定畫面請以左下方的「-」號清除原本的DNS設定，之後以「+」號加入「10.6.56.151」或者「163.21.235.70」</li>
+              <li>之後按「好」,回到上層視窗後按「套用」便完成設定</li>
+              <li>您已完成設定! 享受更快及更安全的DNS服務吧!</li>
+
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              iPhone
+              <li>開啟 「設定」 選項</li>
+              <li>點選 Wi-Fi項目,然後點選您正連線的WiFi設定檔</li>
+              <li>Tap the - button, and Delete to clean any existing entries.</li>
+              <li>於列表中按項目前方的「-」號將原本的DNS設定清除</li>
+              <li>點選「加入伺服器」之後便可以鍵入「10.6.56.151」或者「163.21.235.70」</li>
+              <li>之後點選右上方「儲存」鍵</li>
+              <li>您已完成設定! 享受更快及更安全的DNS服務吧!</li>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              Android
+              <li>選擇WiFi項目,可見到列出的WiFi設定檔</li>
+              <li>長按您正在連線的設定檔，選擇「更改網路設定」選項</li>
+              <li>選擇「顯示進階選項」，之後選擇「DHCP」項目，將其改為「靜態」設定</li>
+              <li>之後視窗下拉至最後便可見到DNS1 及 DNS2 設定，於DNS1設定處鍵入「10.6.56.151」或者「163.21.235.70」</li>
+              <li>點選「加入伺服器」之後便可以鍵入「10.6.56.151」或者「163.21.235.70」</li>
+              <li>之後按下「儲存」</li>
+              <li>您已完成設定! 享受更快及更安全的DNS服務吧!</li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+          <div class="col-md-12">
+            <ul class="container text-center">
+
+                <h4><a href="http://cs.utaipei.edu.tw/bin/home.php" target="_blank">臺北市立大學資訊科學系<br>系統管理團隊</a></h4>
+                <h5>Department of Computer Science, University of Taipei</h5>
+
+            </ul>
+            <span class="content">系統管理員：</span>
+            <ul class="content">
+                陳熏妤（資訊科學系四年級）
+                <a href="mailto:U10416013@go.utaipei.edu.tw">U10416013@go.utaipei.edu.tw</a>
+                <br>
+                <a href="http://www.hcy.idv.tw/intro" target="_blank">黃志揚</a>（資訊科學系四年級）
+                    <a href="mailto:U10416001@go.utaipei.edu.tw">U10416001@go.utaipei.edu.tw</a>
+
+            </ul>
+            <span class="content">參與教授：</span>
+            <ul class="content">
+               <a href="http://dhluserver.utaipei.edu.tw" target="_blank">盧東華</a>（資訊科學系助理教授）
+                <a href="mailto:dhlu@utaipei.edu.tw">dhlu@utaipei.edu.tw</a>
+
+            </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">聯繫方式</h2>
+            <hr class="my-4">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+            <p>02-23113040#8362</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+            <p>
+              <a href="mailto:cs@go.utaipei.edu.tw">cs@go.utaipei.edu.tw</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>
